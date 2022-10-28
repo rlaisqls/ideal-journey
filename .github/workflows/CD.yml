@@ -12,7 +12,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew clean build
+        run: ./gradlew clean build --info
 
       - name: build docker image
         run: docker build -t rolls .
