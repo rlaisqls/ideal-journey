@@ -34,9 +34,6 @@ dependencies {
 
     runtimeOnly("mysql:mysql-connector-java")
 
-    compileOnly("io.springfox:springfox-swagger2:2.5.0")
-    compileOnly("io.springfox:springfox-swagger-ui:2.5.0")
-
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

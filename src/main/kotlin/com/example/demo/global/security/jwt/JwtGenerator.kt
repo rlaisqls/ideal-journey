@@ -1,6 +1,6 @@
 package com.example.demo.global.security.jwt
 
-import com.example.demo.domain.user.presentation.dto.request.TokenResponse
+import com.example.demo.domain.user.presentation.dto.response.TokenResponse
 import com.example.demo.global.security.SecurityProperties
 import io.jsonwebtoken.Header
 import io.jsonwebtoken.Jwts
@@ -8,6 +8,7 @@ import io.jsonwebtoken.SignatureAlgorithm
 import io.jsonwebtoken.security.Keys
 import org.springframework.stereotype.Component
 import java.time.LocalDateTime
+import java.time.ZoneOffset
 import java.util.*
 
 @Component

@@ -10,7 +10,7 @@ import javax.persistence.*
 class User(
 
     @Column(name = "user_id", nullable = false)
-    override val id: Long,
+    override val id: Long = 0,
 
     @Column(nullable = false, unique = true, length = 15)
     val username: String,
